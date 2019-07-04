@@ -1,0 +1,88 @@
+/* Classe relative aux templates. */
+
+/* Relatif au menu du header. */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+ 
+}
+
+.menu {
+  background-color: #464a4d;
+}
+
+.menu * {
+  color: hsla(0, 0%, 100%, .5);
+  font-size: 15px;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+.menu nav {
+  justify-content: space-between;
+  display: flex;
+  padding: 3px;
+}
+
+/* Relatif aux réseaux socials dans le footer. */
+
+.reseau-social {
+	background-color: #757c80;
+}
+
+.icone-reseau-social {
+	padding: 15px;
+}
+
+.icone-reseau-social a {
+  color: #ffffff;
+  margin: 1px;
+}
+
+.icone-reseau-social a:hover {
+  text-decoration: none;
+}
+
+.icone-reseau-social .fab {
+  padding: 14px;
+  font-size: 20px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.icone-reseau-social .fab:hover {
+  opacity: 0.7;
+}
+
+.icone-reseau-social .fa-facebook  {
+  background-color: #3B5998;
+}
+
+.icone-reseau-social .fa-twitter {
+  background-color: #55ACEE;
+}
+
+.icone-reseau-social .fa-snapchat-ghost {
+  background-color: #fffc00;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.icone-reseau-social .fa-instagram {
+  background-color: #125688;
+}
+
+.texte-reseau-social {
+	background-color: #464a4d;
+	padding: 11px;
+	color: hsla(0, 0%, 100%, .5);
+	font-size: 13px;
+}
+
+#footer {
+    position: fixed, bottom : 0;
+    
+}

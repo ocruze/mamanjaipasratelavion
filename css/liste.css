@@ -1,0 +1,133 @@
+/* Classe relative aux pages de liste et de detail. */
+
+/* Liste */
+
+.liste {
+	padding-top: 15px;
+}
+
+.liste * {
+	color: #ffffff;
+}
+
+.scrollable-liste {
+	overflow: auto;
+	max-height: 500px;
+}
+/*
+.liste-stat {
+	background-color: #464a4d;
+	margin-bottom: 15px;
+}
+
+.liste-stat-most {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 130px;
+	margin: 8px;
+}
+
+.liste-stat-most h2 {
+	color: #fff;
+    position: absolute;
+    background-color: #464a4d;
+    padding: 2px 15px 5px 5px;
+    font-size: 1.1em;
+}
+
+.liste-stat-concerne {
+	margin-top: 50px;
+}
+
+.liste-stat-concerne h3 {
+	color: #fff;
+    background-color: #464a4d;
+    padding: 2px 15px 5px 5px;
+    font-size: 1.1em;
+}
+
+.liste-aeroport {
+	background-color: #949494;
+	box-shadow: 0 0 7px #363636;
+}
+
+.liste-aeroport-titre {
+	padding: 12px 5px 2px 5px;
+}
+
+.liste-aeroport-titre h5 {
+	color: #ffffff;
+	text-align: center;
+    padding: 10px;
+    background-color: #464a4d;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.liste-aeroport-detail {
+	background-color: rgba(0, 0, 0, .28);
+    margin: 2px 0 2px 0;
+    padding: 5px;
+}
+*/
+.liste-aeroport-detail img {
+	width: 100px;
+	height: 40px;
+}
+
+.liste-aeroport-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.lien-decoration-none a{
+	text-decoration: none;
+}
+
+/* Detail */
+.detail-photo{
+	width: 480px;
+	height: 270px;
+}
+
+.btn_avis{
+	position: absolute;
+	bottom: 0;
+}
+
+.comment{
+	background-color: #e9ece5;
+    width:100%;
+}
+
+.comment-photo-profil{
+	width: 50%;
+	height: 50%;
+}
+
+.comment-sec-titre{
+	background-color: #b3c2bf;
+}
+
+.checked{
+	color: orange;
+}
+
+.bloc-avis {
+    margin-bottom: 50px;
+    overflow: auto;
+    overflow-y: scroll;
+    max-height: 600px;
+    margin-top: 10px;
+}
+
+.donnerAvis .modal-dialog {
+    max-width: 80% !important;
+}
+
+.saisie-douane {
+    width: 30%;
+}
+

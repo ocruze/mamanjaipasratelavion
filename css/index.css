@@ -1,0 +1,35 @@
+/* Classe relative à la page d'accueil. */
+
+.index * {
+    font-size: 15px;
+}
+
+.bloc-index {
+    background-image: url('../image/systeme/index.gif') !important;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.titre-bloc-index img {
+    margin-top: 50px;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+.saisie-bloc-index {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
+    min-height: 40px;
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.saisie-bloc-index input {
+    border: none;
+    color: rgba(0, 0, 0, .87);
+    outline: none;
+    display: flex;
+    min-height: 40px;
+    padding-left: 15px;
+    width: 100%;
+}
